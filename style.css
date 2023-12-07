@@ -6,10 +6,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: "Heebo";
+    font-family: Outfit;
 }
 
-.main{
+main{
     text-align: center;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
@@ -31,13 +31,14 @@ h2{
 
 p{
     color: hsl(220, 15%, 55%);
+    font-size: 15px;
 }
 
-.attribution {
+footer {
     margin-top: 20px;
     font-size: 11px; 
     text-align: center;
 }
-.attribution a { 
+footer a { 
     color: hsl(228, 45%, 44%); 
 }
